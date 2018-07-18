@@ -1,13 +1,19 @@
 # Tic Tac Toe
 
-A Tic Tac Toe game implemented using C++
+A program that mimics the Tic Tac Toe game.
 
-The game can be played by a User against an A.I
+The game can be played between two players or player vs computer (AI application).
 
-The players can be distinguished by game pieces 'X' and 'O'
+# How to play
 
-A random number generator is used to determine who will take the first turn.
-The player that goes first is assigned to game piece 'X'
+Each player is assigned a game token 'X' or 'O'. Normally, who allows to make the first move will recieve 'X'. This is determined by a random generator.
 
-The winning condition is having 3 consecutive game piece within a 
-direction such as Horizontal, Vertical, and Diagonal
+Players take turn marking spaces in a 3x3 grid.
+
+Whoever score a verticle, horizontal or diagonal line wins.
+
+# Frameworks:
+
+C++ 17
+
+OpenCV 3.3
